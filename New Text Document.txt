@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mohamed Shemy | Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-900">
+
+  <!-- Navbar -->
+  <nav class="bg-white shadow">
+    <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+      <h1 class="text-xl font-bold">Mohamed Shemy</h1>
+      <div class="space-x-6">
+        <a href="#home" class="hover:text-blue-600">Home</a>
+        <a href="#projects" class="hover:text-blue-600">Projects</a>
+        <a href="#contact" class="hover:text-blue-600">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="text-center py-20 bg-gradient-to-r from-blue-100 to-blue-200">
+    <h2 class="text-4xl font-bold mb-4">Data Analyst | Excel & Power BI</h2>
+    <p class="mb-6">Turning data into insights with Excel, Power BI, and DAX</p>
+    <a href="assets/Mohamed_Shemy_CV.pdf" class="bg-blue-600 text-white px-6 py-3 rounded-lg shadow hover:bg-blue-700">
+      Download CV
+    </a>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="max-w-7xl mx-auto py-16 px-4">
+    <h2 class="text-3xl font-bold text-center mb-10">Projects</h2>
+    <div class="grid md:grid-cols-2 gap-8">
+      
+      <!-- Project 1 -->
+      <div class="bg-white rounded-lg shadow hover:shadow-lg transition p-6">
+        <img src="assets/foodmart1.png" alt="Food Mart Project" class="rounded mb-4">
+        <h3 class="text-xl font-semibold mb-2">Food Mart Analysis</h3>
+        <p class="mb-4">Excel & DAX project analyzing sales, customers, and product returns.</p>
+        <a href="project1.html" class="text-blue-600 font-semibold">View Details →</a>
+      </div>
+
+      <!-- Project 2 -->
+      <div class="bg-white rounded-lg shadow hover:shadow-lg transition p-6">
+        <img src="assets/project2.png" alt="Project 2" class="rounded mb-4">
+        <h3 class="text-xl font-semibold mb-2">Project Two</h3>
+        <p class="mb-4">Description of project two goes here.</p>
+        <a href="project2.html" class="text-blue-600 font-semibold">View Details →</a>
+      </div>
+
+      <!-- Project 3 -->
+      <div class="bg-white rounded-lg shadow hover:shadow-lg transition p-6">
+        <img src="assets/project3.png" alt="Project 3" class="rounded mb-4">
+        <h3 class="text-xl font-semibold mb-2">Project Three</h3>
+        <p class="mb-4">Description of project three goes here.</p>
+        <a href="project3.html" class="text-blue-600 font-semibold">View Details →</a>
+      </div>
+
+      <!-- Project 4 -->
+      <div class="bg-white rounded-lg shadow hover:shadow-lg transition p-6">
+        <img src="assets/project4.png" alt="Project 4" class="rounded mb-4">
+        <h3 class="text-xl font-semibold mb-2">Project Four</h3>
+        <p class="mb-4">Description of project four goes here.</p>
+        <a href="project4.html" class="text-blue-600 font-semibold">View Details →</a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="bg-gray-100 py-16">
+    <div class="max-w-4xl mx-auto text-center">
+      <h2 class="text-3xl font-bold mb-6">Contact</h2>
+      <p class="mb-4">Let’s connect! You can reach me via:</p>
+      <p class="mb-2">📧 Email: <a href="mailto:yourmail@example.com" class="text-blue-600">yourmail@example.com</a></p>
+      <p class="mb-2">💼 LinkedIn: <a href="https://linkedin.com/in/yourprofile" class="text-blue-600">linkedin.com/in/yourprofile</a></p>
+      <p>🐙 GitHub: <a href="https://github.com/mshemy84-lgtm" class="text-blue-600">github.com/mshemy84-lgtm</a></p>
+    </div>
+  </section>
+
+</body>
+</html>

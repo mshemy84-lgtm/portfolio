@@ -1,0 +1,18 @@
+<section id="about" style="padding: 50px 20px; background-color: #f9f9f9;">
+  <div style="max-width: 1000px; margin: auto; display: flex; align-items: center; gap: 40px; flex-wrap: wrap;">
+    
+    <!-- صورة شخصية -->
+    <div style="flex: 1; min-width: 250px; text-align: center;">
+      <img src="your-photo.jpg" alt="Mohamed Saeed" style="width: 250px; height: 250px; object-fit: cover; border-radius: 50%; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
+    </div>
+
+    <!-- النص -->
+    <div style="flex: 2; min-width: 300px;">
+      <h2 style="font-size: 28px; margin-bottom: 20px; color: #333;">About Me</h2>
+      <p style="font-size: 18px; line-height: 1.6; color: #555;">
+        I'm Mohamed Saeed, a Data Analyst specializing in transforming complex datasets into actionable insights, clear reports, and interactive dashboards. Skilled in Excel (Power Pivot, Power Query) and Power BI (DAX, dashboard design), I help product, marketing, and leadership teams make data-driven decisions and improve KPIs. Certified in Excel & Power BI from IMP.
+      </p>
+    </div>
+
+  </div>
+</section>
